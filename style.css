@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.item {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.item:hover {
+    background-color: #1b9bff;
+    transition: .5s;
+}
+
+.icon-bar {
+    background-color: white;
+}
+
+#myNavbar i {
+    margin-right: 5px;
+}
+.heading {
+    font-family: 'Montserrat', sans-serif;
+    color: #0082e0;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.heading:hover {
+    text-shadow: 0px 0px 10px #0f70bb;
+    transition: .5s;
+}
+
+.S_word {
+    color: blueviolet;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px blueviolet;
+}
+.B_word{
+    font-family: 'Montserrat', sans-serif;
+    color: #0082e0;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+#map{
+    height: 374px;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px;
+    margin-bottom: 20px;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.camp_img{
+    width: 280px;
+    height: 180px;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 10px;
+}
+.award_head{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+.award_head i{
+    float: right;
+}
+.award_img{
+    box-shadow: 0px 5px 10px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    height: 300px;
+    width: 250px;
+}
+.award_text{
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 17px;
+}
+@media(max-width: 1033px) {
+    .item {
+        font-size: 12px;
+        transition: 1s;
+    }
+}
+@media(max-width: 966px){
+    #map{
+        margin-top: 20px;
+    }
+}
+@media(max-width: 616px){
+    #map{
+        width: 400px;
+    }
+}
+@media(max-width: 955px){
+    .card{
+        margin-top: 20px;
+    }
+}
+@media(max-width: 767px){
+    .award_text{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+}
